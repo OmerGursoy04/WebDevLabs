@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" direction = "ltr">
+<head>
+    <meta name="author" content="Omer Gursoy">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Omer Gursoy's professional website">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omer Gursoy</title>
+    <link rel = "stylesheet" href = "../Statics/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../Statics/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body onload = "addYear()" style = "background-color: black;">
+    <header>
+        <h1 id = "webname">Omer Gursoy</h1>
+        <nav id = "myTopnav" class = "topnav">
+            <a href = "index.html" class = "active">Home</a>
+            <a id = "cv" class = "active" href = "cv.html">CV</a>
+            <a href = "contact.html">Contact me</a>
+            <a href = "fun.html">For fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2>
+            Curriculum Vitae
+        </h2>
+        <table class = "cv-pdf">
+            <caption>My Experience</caption>
+            <tr><th>Name</th><th>Description</th></tr>
+            <tr><td>first</td><td>Omer</td></tr>
+            <tr><td>second</td><td>Gursoy</td></tr>
+        </table>
+        <a href = "../Statics/OmerGursoyCV.pdf" target = "_blank">My resume, pdf version</a>
+    </div>
+    <footer>
+        <p class = "copyright" id = "copyYear">Omer Gursoy &copy; </p>
+    </footer>
+    
+</body>
+</html>

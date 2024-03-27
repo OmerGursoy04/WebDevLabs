@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" direction = "ltr">
+<head>
+    <meta name="author" content="Omer Gursoy">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Omer Gursoy's professional website">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omer Gursoy</title>
+    <link rel = "stylesheet" href = "../Statics/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../Statics/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+</head>
+<body onload = "addYear()" style = "background-color: black;">
+    <header>
+        <h1 id = "webname">Omer Gursoy</h1>
+        <nav id = "myTopnav" class = "topnav">
+            <a href = "index.html">Home</a>
+            <a href = "cv.html">CV</a>
+            <a href = "contact.html">Contact me</a>
+            <a id = "fun" class = "active" href = "fun.html">For fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class = "mainFun">
+        <div id = "item1">
+        <h2>
+            <u>Things that I love to do for fun</u>
+        </h2>
+        <!-- <button id = "SeeMoreBTN" onclick = "showList()">Click to see...</button>
+        <span id = "HideBTN">Click to hide</span> -->
+        <ul id = "FavList">
+            <li class = "activities">Learning different programming languages</li>
+            <li class = "activities">Reading and listening to podcasts about investing</li>
+            <li class = "activities">Having intellectual conversations with friends</li>
+            <li class = "activities">Reading philosophy books and weighing the concepts up in my head</li>
+            <li class = "activities">Reading about the business world</li>
+        </ul>
+        </div>
+        <div id = "item2">
+            <iframe style = "border-radius:12px" 
+            src = "https://open.spotify.com/embed/track/2xZfPZxInlDXDKc6NDts8Z?utm_source=generator" 
+            width = "100%" height = "352" frameborder = "0" allowfullscreen = "" allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading = "lazy">
+            </iframe>
+            <!-- Below is a youtube video but, I prefer embedding a Spotify song -->
+            <!-- <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/vEQQW79rDec?si=3XEetU35u2BNXkVy" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+            web-share" allowfullscreen>
+            </iframe>    -->
+        </div>
+        <div id = "item3">
+            <h3>My favorite places</h3>
+                <!--The div element for the map -->
+                <div id = "map">
+                <!-- prettier-ignore -->
+                <iframe 
+                src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.357377620912!2d28.99177767610005!3d41.03931321751326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab776f9715eeb%3A0x2cef984e492e1bd8!2zVMO8cHJhxZ8gU3RhZHl1bXU!5e0!3m2!1sen!2sus!4v1711395420357!5m2!1sen!2sus" 
+                width = "600" height = "450" style = "border:0;" allowfullscreen = "" 
+                loading = "lazy" referrerpolicy = "no-referrer-when-downgrade" alt = "map location of the Besiktas Stadium">
+                </iframe>    
+            </div>   
+        </div>
+        <div id = "item4">
+            <img img class = "funIMG" src = "../Statics/Besiktas-Stadium.jpg" 
+            alt = "A photo of the Besiktas Stadium (Omer's soccer team's stadium)">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <p id = "copyYear">Omer Gursoy &copy; </p>
+    </footer>
+    
+</body>
+</html>

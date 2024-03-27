@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" direction = "ltr">
+<head>
+    <meta name="author" content="Omer Gursoy">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Omer Gursoy's professional website">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omer Gursoy</title>
+    <link rel = "stylesheet" href = "../Statics/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../Statics/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body onload = "addYear()" style = "background-color: black;">
+    <header>
+        <h1 id = "webname">Omer Gursoy</h1>
+        <nav id = "myTopnav" class = "topnav">
+            <a id = "home" href = "index.html" class = "active">Home</a>
+            <a href = "cv.html">CV</a>
+            <a href = "contact.html">Contact me</a>
+            <a href = "fun.html">For fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div id = "container" class = "main">
+        <h2 id = "greeting">
+            <br>
+            <br>
+        </h2>
+            <img class = "classA" src = "../Statics/white-tuxedo.jpeg" 
+            alt = "Omer Gursoy profile image">
+        <div class = "classA">
+            <!-- <p id = "intro"> -->
+            <span id = "shortIntro">
+                Raised in Istanbul and England, currently pursuing Information Systems 
+                at Carnegie Mellon University. I am passionate about computer science 
+                and football (soccer).
+            </span>
+            <span id = "readMore">read more...</span>
+            <span id = "longIntro">
+                I have both technical and soft skills which vary from Python and HTML 
+                to leadership and strong communication skills. However, I am still in 
+                the process of developing myself and I try to keep an open mind to many
+                opportunities. Apprenticed at Sevan Bıçakçı for four summers in the 
+                Grand Bazaar of Istanbul, Türkiye and interned at a Silicon Valley based
+                Machine Learning start up called Tazi. I have participated in a couple 
+                of machine learning and computer science research projects of my own 
+                initiative and extracurriculars which comprises both being a teacher 
+                and a student. Meanwhile, I captained my high school tennis team in 
+                the UK.
+            </span>
+            <span id = "readLess">read less</span>
+                
+                <!-- <span class = "intro">
+                    Raised in Istanbul and England, currently pursuing Information Systems at Carnegie Mellon University. I am passionate about mathematics and football (soccer).
+
+I have both technical and soft skills which vary from Python and HTML to leadership and strong communication skills. However, I am still in the process of developing myself and I try to keep an open mind to many opportunities.
+
+Apprenticed at Sevan Bıçakçı for four summers in the Grand Bazaar of Istanbul, Türkiye and interned at a Silicon Valley based Machine Learning start up called Tazi.
+
+I have participated in a couple of machine learning and computer science research projects of my own initiative and extracurriculars which comprises both being a teacher and a student. Meanwhile, I captained my high school tennis team in the UK.
+                </span> -->
+            <!-- </p> -->
+        </div>
+    </div>
+    <footer>
+        <p id = "copyYear">Omer Gursoy &copy; </p>
+    </footer>
+    
+</body>
+</html>
